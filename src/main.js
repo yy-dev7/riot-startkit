@@ -1,0 +1,5 @@
+import 'riot-hot-reload'
+import './RiotControl'
+import './stores'
+import './riotTags'
+import './router'
