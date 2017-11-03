@@ -1,4 +1,5 @@
 <home>
+  <img src="{logo}" alt="">
   <hello></hello>
   <button onclick="{ increment }">+</button>
   <span>{ count }</span>
@@ -7,9 +8,11 @@
   <hr>
   <button onclick="{ go.bind(this, 'page-one') }">go page one</button>
   <button onclick="{ go.bind(this, 'page-two') }">go page two</button>
-  <script>
+  <script type="es6">
     import '../components/hello.tag'
     import route from 'riot-route'
+
+    this.logo = require('assets/logo.png')
 
     this.mixin('controlMixin')
 

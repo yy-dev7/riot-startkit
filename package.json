@@ -7,7 +7,9 @@
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.tag src"
+    "lint": "eslint --ext .js,.tag src",
+    "dumb": "node build/new-tag.js components",
+    "smart": "node build/new-tag.js pages"
   },
   "dependencies": {
     "riot": "^3.7.3",
@@ -52,6 +54,7 @@
     "riot-tag-loader": "^1.0.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
+    "style-loader": "^0.19.0",
     "url-loader": "^0.5.8",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",

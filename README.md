@@ -16,4 +16,10 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+# create dumb templates
+npm run dumb [component-name]
+
+# create smart templates
+npm run smart [page-name]
 ```
